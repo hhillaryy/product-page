@@ -1,0 +1,70 @@
+*,
+*::before
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#container {
+  background-image: url("../img/mixer.jpg");
+  height: 1290px;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+
+#navigation {
+  font-family: 'Montalban';
+  margin: none;
+  padding: none;
+}
+
+#logo {
+  font-family: 'trekbats';
+  font-size: 40px;
+  margin: none;
+  padding: none;
+}
+
+#enterprise {
+  font-family: 'trekbats';
+
+}
+
+h1 {
+  font-family: 'Montalban';
+  font-size: 30px;
+  margin: none;
+  padding; none;
+
+}
+
+#navigation ul {
+  float: right;
+}
+
+#caption {
+font-family: 'Okuda';
+/*font-weight: bolder;*/
+font-size: 60px;
+color: #BE2026;
+position: absolute;
+top: 340px;
+left: 150px;
+text-shadow: 2px 2px #262626;
+}
+
+li {
+display: inline;
+list-style-type: none;
+}
+
+a:link {
+color: black;
+}
+
+a:hover {
+color: blue;
+}

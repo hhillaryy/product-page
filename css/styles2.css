@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'Montalban';
+    src: url('fonts/Montalban Condensed.otf');
+    src: url('fonts/Montalban Condensed Italic.otf');
+    src: url('fonts/Montalban Condensed Bold Italic.otf');
+    src: url('fonts/Montalban Bold.otf')
+    /*font-weight: normal;*/
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montalban';
+  src: url('fonts/montalban/Montalban.otf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'trekbats'
+  src: url('fonts/trekbats/Tr.otf');
+}
+
+@font-face {
+  font-family: 'Okuda'
+  src: url('fonts/okuda/Okuda.otf');
+  src: url('fonts/okuda/Okuda Italic.otf');
+  src: url('fonts/okuda/Okuda Bold.otf');
+
+}
