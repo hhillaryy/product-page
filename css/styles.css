@@ -27,16 +27,26 @@ html {
   font-family: 'Montalban';
   margin: none;
   padding: none;
-
 }
 
 #logo {
   font-family: 'trekbats';
   font-size: 40px;
-  margin: none;
-  padding: none;
+  margin: 5px;
+  padding: 5px;
 }
 
+#features {
+  font-family: 'Okuda';
+  font-size: 18px;
+  text-align: left;
+  font-weight: lighter;
+  color: black;
+  position: absolute;
+  list-style: inherit;
+  top: 210px;
+  left: 10px;
+}
 #enterprise {
   font-family: 'trekbats';
   text-shadow: none;
@@ -48,6 +58,7 @@ h1 {
   font-size: 30px;
   margin: none;
   padding-left: 15px;
+  display: inline;
 }
 
 h3 {
@@ -55,6 +66,7 @@ h3 {
   font-size: 15px;
   margin: none;
   padding: none;
+  text-align: center;
 }
 
 #navigation ul {
@@ -67,28 +79,29 @@ font-family: 'Okuda';
 font-size: 60px;
 color: #BE2026;
 position: absolute;
-top: 350px;
-left: 150px;
+top: 900px;
+left: 260px;
 text-shadow: 2px 2px #262626;
 }
 
 #secondary-content {
-  height: 360px;
+  height: 700px;
   margin-top: 10px;
   position: relative;
   margin: 15px 8px;
-  width: 100%
+  width: 100%;
+  min-width: 1180px;
 }
 
 #gallery img {
   align-items: center;
-  height: 125px;
-  width: 125px;
+  height: 150px;
+  width: 150px;
 }
 
 .image {
   float: left;
-  padding: 0 8px 8px 8px;
+  padding: 0 10px;
   align-items: center;
   margin: 8px;
   font-family: 'Okuda';
@@ -102,7 +115,13 @@ text-shadow: 2px 2px #262626;
   border: 4px solid #D9D9D9;
   padding: 0px 10px;
   align-items: center;
-  height: 350px;
+  height: 650px;
+}
+
+.column p {
+  font-family: 'Okuda';
+  font-size: 16px;
+  letter-spacing: .5px;
 }
 
 .column2 {
@@ -111,10 +130,19 @@ text-shadow: 2px 2px #262626;
   border: 4px solid #D9D9D9;
   border-left: none;
   padding: 0 10px;
-  height: 350px;
+  height: 650px;
 }
 
-li {
+.column2 p {
+  font-family: 'Okuda';
+  font-size: 20px;
+}
+
+.clearboth {
+  clear: both;
+}
+
+#navigation li {
 display: inline;
 list-style-type: none;
 }
@@ -137,6 +165,7 @@ table {
 
 td {
   text-align: center;
+  padding: 12px;
 }
 
 td:first-of-type {
@@ -146,6 +175,7 @@ td:first-of-type {
 th {
   font-weight: bolder;
   border-bottom: 1px solid black;
+  padding: 12px;
 }
 
 tr:nth-child(2n+1) {
